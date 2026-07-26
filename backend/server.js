@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://127.0.0.1:5173"],
+    origin: ["https://agent-6a666b776376dfa3dc4c3010--mini-leaddesk.netlify.app"],
   })
 );
 
